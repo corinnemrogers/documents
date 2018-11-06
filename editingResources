@@ -1,0 +1,392 @@
+{{#pagetitle:Contribute translations}} [[Main Page]] > [[Resources]] >
+Resources/Translation
+
+Thank you for your interest in contributing user interface translations to the
+AtoM project! Your contributions help to make AtoM a multilingual application
+with a global reach.
+
+In our continuing efforts to make the process of translating the AtoM interface
+more efficient, Artefactual Systems has moved from its previous translation
+service, [https://www.transifex.com/ Transifex] to [https://www.weblate.org/
+Weblate], an open source web-based translation management system supporting
+continuous translation from multiple sources. More than one translator can
+contribute translated strings, making the process faster and easier, and
+enabling Artefactual Systems to publish translations more often.  Everything is
+web-based using Weblate, meaning you can access your translation work via any
+web browser, instead of having to handle [https://en.wikipedia.org/wiki/XLIFF
+XLIFF] files directly, as was the case with early versions of ICA-AtoM
+translations.
+
+This page will introduce you to the AtoM Weblate project, so that you can sign
+up and begin contributing translations. If you have contributed through
+Transifex in the past, you will been to open a new account with Weblate to
+continue contributing.
+
+<admonition type="seealso"> * Interested in contributing to our project
+documentation? We have a separate page for that! See:
+[[Resources/Documentation/Contribute|Contribute documentation]] * Looking to
+contribute code to AtoM? See: [[Development/Contribute code|Contribute code]] *
+Check out our [https://www.accesstomemory.org/docs User Manual] for information
+on how to translate content or interface elements locally (in your installation
+only) - see the Multilingual section.  </admonition>
+
+'''You can see the AtoM project in Weblate here:''' https://www.XXXXXXXXXXXX/
+
+
+__TOC__
+
+
+
+===Sign up for an account with Weblate===
+
+'''1.''' Navigate to https://www.XXXXXXXXXXXX/
+
+[[File:weblate-signup.png|thumb|500px|center|Sign-up page for Weblate]]
+
+
+'''2.''' Fill in all the required fields, click on “Register” (note: by
+doing so you are agreeing with Weblate to use your name and email in version
+control commits and provide your contribution under the terms of the Creative Commons
+Attribution Share Alike 4.0 (CC-BY-SA-4.0) license that applies to AtoM
+documentation). Weblate also supports several third-party registrations and
+provides links from their registration page.
+
+[[File:weblste-3rd-party-registration.png|thumb|500px|center|Third party
+registration options for Weblate]]
+
+You will be sent an activitation email. Once you have activated your account,
+you will be ready to continue with the next step.
+
+<admonition type="seealso"> Weblate has its own help documentation - here's a
+help page on getting started: *
+[https://docs.weblate.org/en/latest/user/index.html Weblate Documentation - Translators guide] </admonition>
+
+===Join the AtoM Project===
+
+'''3.''' Once you have activated your account, you will be redirected to a page
+that asks you to agree to Weblate's Terms of Service. Once you have done so, a
+second page will prompt you to set a password. Following this you will be
+directed to the main page where you can choose your preferred language(s) for
+translation and set other preferences.
+
+'''4.''' On the second configuration page, you will be given the option to start
+your own project or to join an existing one. Select "Join an existing project".
+
+[[File:transifex-find-projects.png|thumb|500px|center|Configuration page for
+Transifex. Click the "Find projects" button after inputting your preferences and
+languages]]
+
+'''5.''' The last configuration page will ask you to identify languages that you
+speak. Select as many as are applicable and click on "Get started".
+
+'''6.''' A pop-up window will appear. After you click on "Find a project to
+translate", type "atom" into the search bar and then click on the AtoM project
+when it appears below.
+
+[[File:transifex-find-atom.png|thumb|500px|center|Project finder for Transifex.
+Type "atom" into the search bar and then select the AtoM project]]
+
+'''7.''' You will be redirected to the
+[https://www.transifex.com/artefactual/atom/ AtoM Transifex Project homepage].
+
+[[File:transifex-atom.png|thumb|500px|center|The AtoM project homepage in
+Transifex]]
+
+===Join a team===
+
+'''8.''' In the top right corner of the page, select "Join team".
+
+[[File:transifex-join-team.png|thumb|500px|center|Joining a team in the AtoM
+Transifex project]]
+
+'''9.''' A pop-up will appear with a list of the available languages. Select
+your chosen translation language from the list. When you've found it, click the
+Submit button (if you wish to translate AtoM into multiple languages, you can
+repeat this process again later).
+
+<admonition type="important"> Please review the options available in the list
+prior to requesting a new language! In many cases, we have had requests for
+different locales (for example, requesting "fr_FR" for France French, instead of
+working in the existing "fr" French project), but AtoM does not always support
+these very well. If at all possible, please work within the existing projects,
+or try to select the most generic option, without locale codes. We'll work with
+you if there are no other options, of course - but if you can avoid using a
+specific locale, it will make merging and maintaining your translations in AtoM
+much easier!  </admonition>
+
+[[File:transifex-select-language.png|thumb|500px|center|Selecting a language in
+the AtoM Transifex project]]
+
+'''10.''' You will see a confirmation message informing you that your request
+has been submitted. One of the Artefactual project maintainers will review the
+request and approve your account.
+
+'''11.''' You will receive an automated email from Transifex introducing you to
+the translation editor interface and providing you with a link to generic help
+instructions. You may review these instructions if you wish, or follow the
+specific instructions that the AtoM coordinators have provided below.
+
+<admonition type="seealso"> Here are the links that Transifex will provide you
+with in the email, for reference: *
+[http://docs.transifex.com/tutorials/txeditor/ Translating and reviewing content
+in the Transifex Editor] * [http://docs.transifex.com/ Transifex Help
+documentation] </admonition>
+
+'''12.''' Once your account is approved by the AtoM coordinators, you will
+receive an email notification from Transifex. It will indicate that you have
+been accepted to the team of the language of your choice within the AtoM
+project. Once you've received this email, return to the AtoM Project homepage in
+Transifex (https://www.transifex.com/artefactual/atom/dashboard/).
+
+'''13.''' Click on the blue Translate button to start translating. Follow the
+on-screen prompts to select your language and the resource that you would like
+to translate.
+
+[[File:transifex-translate-now.png|thumb|500px|center|Follow the directions to
+begin translating.]]
+
+'''14.''' You will be taken to a page containing the current translated strings
+in that project for your chosen language. This is the Translation Editor.
+
+<admonition type="tip"> Want to work translating multiple languages at once?
+Repeat steps 8-15 above. When you work with the Translation Editor, you will
+then be able to switch easily between languages.  </admonition>
+
+===Use the Translation Editor===
+
+You are now in the Editor screen. If you are a translator for more than one
+language/ team you can switch between the available languages using the language
+drop-down menu at the top left side of the screen.
+
+Here's what the Translation Editor interface looks like - we've added some
+numbered orange circles to the image to point out different parts of the
+interface, which will be explained below.
+
+[[File:transifex-translation-interface.png|thumb|800px|center|The Transifex
+Editor web interface]]
+
+<admonition type="seealso"> Transifex documentation: *
+[http://docs.transifex.com/tutorials/txeditor/ Translating and reviewing content
+in the Transifex Editor] * [http://docs.transifex.com/introduction/translators/
+Getting started as a Translator] </admonition>
+
+'''( 1 ) The language drop-down'''
+
+This is where you can see what language you are currently working in. If you are
+working on translating AtoM into multiple languages (e.g. you have followed the
+steps above one time for each language, and have been added to the language
+teams), then you can also use this language drop-down to switch quickly between
+languages.
+
+'''( 2 ) Navigation panel - source strings'''
+
+The left-hand column of the page is the Navigation panel. It shows all the
+original source (English) strings to be translated on the farthest left. You can
+use the search bar above to search for a specific translation string
+(translation text keyword search), or you can search by a number of other
+filters, such as translated date (for strings that have already been
+translated), comments, etc.
+
+[[File:transifex-search-bar.png|thumb|600px|center|The Transifex Editor's search
+bar, searching for specific text in the source strings]]
+
+You can also filter the source strings in the Navigation panel to show only
+those strings that have not yet been translated, using the buttons described in
+'''( 4 )''', below.
+
+To translate a string, click on a source string in the navigation panel, and
+then perform your translation work in the middle column, the Translation panel
+described in '''( 5 )''', below.
+
+'''( 3 ) Navigation panel - translated strings'''
+
+Whenever content has already been translated by you or another Transifex user in
+your team, it will appear in grey to the right of the original source strings.
+You can re-edit translated content at any time by selecting a specific string,
+and then editing the existing translation using the middle column Translation
+panel, described in '''( 5 )''', below.
+
+'''( 4 ) Navigation filters'''
+
+These tabs allow you to quickly filter the content displayed in the left-hand
+column, the Navigation panel (described above). For example, you can use the
+middle filter to limit content in the Navigation panel so it displays only those
+strings that have not yet been translated. These tabs also offer you a measure
+of your team's progress - how many total strings there are, and how many have
+already been translated. If you have a team reviewer, you can also see at a
+glance how many strings have yet to be reviewed.
+
+<admonition type="tip"> Note as well that to the far right of the Navigation
+filters there is a progress bar, indicating how much of the source strings you
+have translated as a green progress indicator filling up the grey bar. If you
+hover this progress bar you can see further details.
+[[File:transifex-progress-bar.png|thumb|600px|center|The Transifex Editor's
+progress bar]] </admonition>
+
+'''( 5 ) Translation panel'''
+
+The middle column on the page is where you will do the actual translation work.
+To start translating, you will first need to select a source string from the
+Navigation panel on the left (described above).
+
+The Translation panel is divided into 3 main sections. On the top is the source
+box, which contains the original source string you have selected in the
+Navigation panel on the left. In the middle is the translation box, where you
+can type in your translation of the source string. If the string is already
+translated, this box is filled in with the last translation, and the soure box
+will display in light grey the name of the user who last translated the string,
+and when. You can still make edits to the current translation if desired -
+simply click your cursor into the middle translation box, make your corrections,
+and click "Save." The bottom  of the Translation panel holds the context box,
+which includes some automated contextual information about the current string.
+
+<admonition type="important"> Don't forget to click the Save button after you
+have entered a translation!  If you navigate to another source string, the
+translation stays in draft mode for as long as the editor is open and you are
+navigating on the same resource and translation language. If you save the
+translation before navigating to another source string, the translation is
+saved. There is a "Save all" button that will save all draft translations you've
+entered at once - but if you close the editor without saving your work, it will
+be lost!  </admonition>
+
+'''( 6 ) Collaboration panel'''
+
+The column on the right-hand side of the Transifex Editor offers a number of
+tools to support productivity and collaboration. It includes 4 different tabs:
+
+* '''Suggestions''' These are automated translation suggestions provided by
+  Transifex, based on previously entered strings. Transifex also provides an
+  indication of how much of a match it believes its suggestions are for the
+  current string. Other users can also add suggestions, and members of your team
+  can then use these, or vote on team member suggestions.
+
+[[File:transifex-suggestions.png|thumb|600px|center|Transifex machine-generated
+suggestions, based on previous translation work in the AtoM project]]
+
+<admonition type="seealso"> Want to learn more about the automated Translation
+suggestions provided by Transifex in the Suggestions tab? They call it
+"Translation Memory." See: * [http://docs.transifex.com/features/tm/ Translation
+Memory Introduction] *
+[https://www.transifex.com/blog/2015/translation-memory-3-0/ Blog post:
+Translation Memory 3.0] </admonition>
+
+* '''History''': If previous translation work has been done on the currently
+  selected string, the user name and date of the previous translations will be
+  displayed in the History tab of the right-hand Collaboration panel.
+* '''Glossary''': Glossary shows you any terms that have a pre-set translation.
+  Thus far, we have not been using this feature in Transifex.
+* '''Comments''': This allows you to collaborate with other users (across
+  languages even!) and to ask for help if needed. Comments can be associated
+  directly with a particular string, and posted either as a comment, or as an
+  issue. Artefactual project maintainers get notifications about issues, so if
+  you need further context for a string for example, feel free to comment as an
+  issue (you will see the 2 options when you enter a comment - "Save", or "Save
+  as issue") asking for clarification, and we will respond as soon as we can.
+
+
+---------
+
+There are other options and functions available within the Transifex Editor, but
+the above should provide you with the basics. To learn more, we suggest checking
+out some of the existing Transifex documentation:
+
+* [http://docs.transifex.com/tutorials/txeditor/ Translating and reviewing
+  content in the Transifex Editor]
+* [http://docs.transifex.com/introduction/translators/ Getting started as a
+  Translator]
+* [http://docs.transifex.com/faq/#what-are-the-web-editors-auxiliary-tools FAQ:
+  What are the Web Editor's Auxiliary Tools?]
+* [https://youtu.be/3y0x8q3Oj7Q Getting Started with Transifex (YouTube video)]
+
+===Receive Notifications of Updates===
+
+One of the features Transifex provides is to allow translators to follow a
+specific project (e.g., AtoM)  This feature is called "watches" in Transifex.
+You can also configure several automatic notification settings for your account
+- if issues or comments are filed; if another user messages you, if there are
+changes in the source files for your project, etc.
+
+'''To watch the AtoM project'''
+
+Navigate to the AtoM project page in Transifex
+(https://www.transifex.com/projects/p/atom/), and click the "Watch project"
+button on the right side of the menu bar at the top of the page.
+
+[[File:transifex-watch-project.png|thumb|700px|center|The "Watch project" button
+on the AtoM project homepage in Transifex]]
+
+You can always click this button again to stop watching the project.
+
+'''To configure your notification settings and your watches'''
+
+In the top right corner of the the screen, located in the dark blue header bar
+at the top of the page, you will see your user name, followed by a little box
+with either a check mark, or a number in it. This second box is the
+notifications widget - if all notifications have been read, it will display a
+checkmark; if there are unread notifications, it will display the number of
+notifications to be reviewed.
+
+If you click on the notification widget, you will be taken to the notifications
+page of your user account:
+
+[[File:transifex-notifications.png|thumb|600px|center|The notifications page in
+Transifex, with the notification widget shown in the top right corner]]
+
+On this page, you will see any activity notifications you have recieved, and the
+associated date. Just above these, you will see a link called "Notification
+settings." Click this to go to the Notification settings page of your account.
+
+In the main tab, you can check or uncheck options for when you are notified (via
+the email you used to register your Transifex account, and via the notifications
+widget in the header bar). There is a second tab called "Watches" where you can
+review and control which projects and languages you are watching.
+
+[[File:transifex-notification-settings.png|thumb|600px|center|The notification
+settings page for your user account in Transifex.]]
+
+<admonition type="tip"> You can also get to this page by clicking on your user
+name, selecting Account settings from the drop-down menu, and then choosing
+"Notification settings" from the menu on the left. Note that in this area, you
+can also edit your user profile, change your email or password, and manage your
+connections to other accounts such as Facebook, Twitter, Github, etc - use the
+Account menu links on the left of the page to explore each accounts setting
+section.  </admonition>
+
+===View project announcements===
+
+From time to time, we'll post an announcement about the status of a project. You
+can view these by going to the AtoM project homepage in Transifex
+(https://www.transifex.com/projects/p/atom/), and then clicking on the
+"Announcements" link in the light blue menu at the top of the page.
+
+[[File:transifex-announcements.png|thumb|700px|center|The announcements tab of
+the AtoM project in Transifex]]
+
+<admonition type="tip"> You can configure your notification settings so you
+receive an email whenever an announcement is posted. See the section above,
+[[Resources/Translation#Receive_Notifications_of_Updates|Receive Notifications
+of Updates]], for more information.  </admonition>
+
+----
+
+'''Thank you''' for helping us translate AtoM - it is through your participation
+that we can make AtoM a truly international application!
+
+Got questions, or find something that's not covered here that you think would be
+helpful? Let us know via the AtoM
+[https://groups.google.com/forum/#!forum/ica-atom-users User Forum], or send us
+an email at [mailto:translate@artefactual.com translate@artefactual.com].
+
+
+
+
+
+
+-----
+
+* [[Resources|Back to Resources]]
+* [[Main Page|Back to AtoM wiki home]]
+
+
+
+[[Category:Resources]]
